@@ -1,9 +1,15 @@
 {
   "name": "alexa-facts",
-  "description": "Example Amazon Alexa skill built with the Amazon Alexa Skills SDK.",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Example Amazon Alexa Fact skill built with the Amazon Alexa Skills SDKv2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eray ALTILI",
+  "license": "ISC",
   "dependencies": {
-    "alexa-sdk": "^1.0.6"
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0"
   }
 }
